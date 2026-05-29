@@ -1,0 +1,44 @@
+# ─── Core Framework ───
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ─── Database ───
+sqlalchemy[asyncio]==2.0.35
+
+# psycopg2-binary removed, using SQLite
+aiosqlite==0.20.0
+alembic==1.13.2
+
+# ─── Validation ───
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# ─── Task Queue ───
+celery[redis]==5.4.0
+redis==5.1.1
+
+# ─── AI ───
+gTTS==2.5.3
+pyttsx3==2.98
+
+# ─── Video Processing ───
+opencv-python-headless==4.10.0.84
+moviepy==2.2.1
+numpy>=1.25.0
+Pillow==10.4.0
+
+# ─── S3-Compatible Storage ───
+boto3==1.35.19
+
+# ─── HTTP Client ───
+httpx==0.27.2
+
+# ─── Utilities ───
+python-dotenv==1.0.1
+orjson==3.10.7
+# ─── Build Tools ───
+setuptools>=68.0
+wheel>=0.43.0
